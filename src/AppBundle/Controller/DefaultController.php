@@ -34,12 +34,4 @@ class DefaultController extends Controller
     {
         return $this->render('default/contact.html.twig');
     }
-
-    /**
-     * @Route("/store", name="storepage")
-     */
-    public function storeAction(Request $request)
-    {
-        return $this->render('default/store.html.twig');
-    }
 }
