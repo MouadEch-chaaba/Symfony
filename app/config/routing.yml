@@ -1,3 +1,7 @@
+developech_pharma:
+    resource: "@DevelopechPharmaBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
