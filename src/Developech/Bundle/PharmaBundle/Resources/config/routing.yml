@@ -5,4 +5,5 @@ developech_pharma_homepage:
 # The API Routing
 API_test:
     path: /API/{id}
-    defaults: { _controller: DevelopechPharmaBundle:Api:default}
+    defaults: { _controller: DevelopechPharmaBundle:Api:default , id: 'Undefined'}
+    requirements: { id: '\d+' }
