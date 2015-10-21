@@ -1,3 +1,8 @@
 developech_pharma_homepage:
     path:     /hello/{name}
     defaults: { _controller: DevelopechPharmaBundle:Default:index }
+
+# The API Routing
+API_test:
+    path: /API/{id}
+    defaults: { _controller: DevelopechPharmaBundle:Api:default}
