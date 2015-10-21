@@ -1,0 +1,4 @@
+services:
+#    developech_pharma.example:
+#        class: Developech\Bundle\PharmaBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
