@@ -13,6 +13,7 @@ class ApiController extends Controller
      */
     public function defaultAction($id)
     {
+        dump($id);
         return new JsonResponse(array("ID" => $id));
     }
 }
