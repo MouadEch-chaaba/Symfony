@@ -11,4 +11,4 @@ API_test:
 # The Admin Routing
 Admin_Home:
     path: /Admin
-    defaulst: { _controller: DevelopechPharmaBundle:Admin:home }
+    defaults: { _controller: DevelopechPharmaBundle:Admin:home }
