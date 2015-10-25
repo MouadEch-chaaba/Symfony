@@ -7,3 +7,8 @@ API_test:
     path: /API/{id}
     defaults: { _controller: DevelopechPharmaBundle:Api:default , id: 'Undefined'}
     requirements: { id: '\d+' }
+
+# The Admin Routing
+Admin_Home:
+    path: /Admin
+    defaulst: { _controller: DevelopechPharmaBundle:Admin:home }
