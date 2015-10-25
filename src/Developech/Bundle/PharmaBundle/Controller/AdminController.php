@@ -9,6 +9,6 @@ class AdminController extends Controller
 {
     public function homeAction()
     {
-        return $this.$this->render("DevelopechPharmaBundle:Admin:home.html.twig");
+        return $this->render("DevelopechPharmaBundle:Admin:home.html.twig");
     }
 }
